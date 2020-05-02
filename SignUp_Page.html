@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Zegarm</title>
+  <link href="C:\Users\Ani\Desktop\Zegarm\stylesheet.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="main">
+    <div class="box1">
+      <form>
+        <fieldset>
+          <legend>Sign Up</legend>
+          <p>Our IDram ID is:</p>
+          <br />
+
+          <div class="group">
+            <input type="text" maxlength="20" required>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Firstname</label>
+          </div>
+
+          <div class="group">
+            <input type="text" maxlength="20" required>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Lastname</label>
+          </div>
+
+          <div class="group">
+            <input type="text" maxlength="20" required>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Nickname</label>
+          </div>
+
+          <div class="group">
+            <input type="text" length="9" pattern="[0-9]+" required>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>User's Idram ID</label>
+          </div>
+
+          <div class="payment">
+            <p> Payment Screenshot</p>
+            <div class="upload">
+              <button onclick="document.getElementById('file-input').click();" class="btn">Upload</button>
+              <input id="file-input" type="file" name="name" style="display: none;" />
+              <button class="btn">Check</button>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+      <div class="submit">
+        <button class="btn">Submit</button>
+      </div>
+    </div>
+    <div class="box2">
+      <div class="timer_container">
+        <div class="timer">
+          <div class="cell">
+            <div class="number">0</div>
+          </div>
+          <div class="cell">
+            <div class="number">0</div>
+          </div>
+          <div class="cell divider">
+            <div class="number">:</div>
+          </div>
+          <div class="cell">
+            <div class="number">0</div>
+          </div>
+          <div class="cell">
+            <div class="number">0</div>
+          </div>
+          <div class="cell divider">
+            <div class="number">:</div>
+          </div>
+          <div class="cell">
+            <div class="number">0</div>
+          </div>
+          <div class="cell">
+            <div class="number">0</div>
+          </div>
+          <div class="cell divider">
+            <div class="number">:</div>
+          </div>
+          <div class="cell">
+            <div class="number">0</div>
+          </div>
+          <div class="cell">
+            <div class="number">0</div>
+          </div>
+        </div>
+        <br />
+        <div class="btn_container">
+          <button class="timer_button">Start</button>
+          <button class="timer_button">Stop </button>
+          <button class="timer_button">Reset</button>
+        </div>
+      </div>
+      <div class="section" id="contacts">
+        <h2><span>Follow Us</span></h2>
+        <div class="link">
+          <a href="https://www.instagram.com" target="_blank">
+            <img alt="Instagram" src="resized insta icon.png" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
